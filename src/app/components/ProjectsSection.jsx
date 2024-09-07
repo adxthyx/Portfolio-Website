@@ -11,54 +11,84 @@ const projectsData = [
     description: "Project 1 description",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/adxthyx/Portfolio-Website/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "Multicity Vehicle Routing",
     description: "Project 2 description",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Algorithms"],
+    gitUrl: "https://github.com/gowdavidwan2003/Efficient-Vehicle-Routing",
+    previewUrl: "https://smart-route.streamlit.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
+    title: "PaaS Product for NGO",
     description: "Project 3 description",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "ML"],
+    gitUrl: "https://github.com/Parth-G27/Tortoise",
+    previewUrl: ["/images/projects/3.png","/images/projects/extra3.png","/images/projects/extra3_1.png","/images/projects/extra3_2.png"],
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Assistive Device for Blind using VLM",
     description: "Project 4 description",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "ML"],
+    gitUrl: "https://github.com/adxthyx/Frontend",
+    previewUrl: ["https://drive.google.com/file/d/1aiipy1nlBRCUTv2ltG9uRYtgdqylTlJU/view"],
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Regional Language Character Recognition",
+    description: "Project 4 description",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "ML"],
+    gitUrl: "https://github.com/adxthyx/Frontend",
+    previewUrl: ["/images/projects/extra5_1.png","/images/projects/extra5_2.png","/images/projects/extra5_3.png"],
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "Attendance Tracker/Face Recognition",
     description: "Project 5 description",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Web","ML"],
+    gitUrl: "https://github.com/adxthyx/Attendance--Face_Recognition",
+    previewUrl: ["/images/projects/6.png"],
   },
+  {
+    id: 7,
+    title: "Minimalistic Protal for RIT student with integrated Chatbot",
+    description: "Authentication and CRUD operations",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/adxthyx/CHAT_MSRIT",
+    previewUrl: ["/images/projects/7.png"],
+  },
+  {
+    id: 8,
+    title: "PPT Generator",
+    description: "Project 4 description",
+    image: "/images/projects/8.png",
+    tag: ["All", "ML"],
+    gitUrl: "https://github.com/adxthyx/PPT_Generator",
+    previewUrl: ["/images/projects/extra8.png","/images/projects/extra8_1.png","/images/projects/extra8_2.png","/images/projects/extra8_3.png"],
+  },
+  
+  {
+    id: 9,
+    title: "Emergency Fire Protocol",
+    description: "Project 4 description",
+    image: "/images/projects/9.png",
+    tag: ["All", "ML"],
+    gitUrl: "https://github.com/adxthyx/Emergency_Fire_Protocol",
+    previewUrl: ["/images/projects/9.png","/images/projects/extra9_1.png","/images/projects/extra9_2.png"],
+  },
+  
+  
 ];
 
 const ProjectsSection = () => {
@@ -97,8 +127,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="ML"
+          isSelected={tag === "ML"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

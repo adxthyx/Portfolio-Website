@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/3.png",
     tag: ["All", "ML"],
     gitUrl: "https://github.com/Parth-G27/Tortoise",
-    previewUrl: ["/images/projects/3.png","/images/projects/extra3.png","/images/projects/extra3_1.png","/images/projects/extra3_2.png"],
+    previewUrl: "https://drive.google.com/file/d/1Bgy8FTlgvbzOXpSJBbGGJ7JNdJG8s_Hj/view?usp=sharing",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const projectsData = [
     image: "/images/projects/4.png",
     tag: ["All", "ML"],
     gitUrl: "https://github.com/adxthyx/Frontend",
-    previewUrl: ["https://drive.google.com/file/d/1aiipy1nlBRCUTv2ltG9uRYtgdqylTlJU/view"],
+    previewUrl: "https://drive.google.com/file/d/1aiipy1nlBRCUTv2ltG9uRYtgdqylTlJU/view",
   },
   {
     id: 5,

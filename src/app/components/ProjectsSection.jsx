@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "Developed a portfolio website using NextJS and hosted it using Vercel Deployment",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/adxthyx/Portfolio-Website/",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Multicity Vehicle Routing",
-    description: "Project 2 description",
+    description: " Implemented and optimized multicity vehicle routing solution resulting in reduction in overall travel costs and carbon footprint.Utilized advanced data structures and algorithms resulting in decrease in travel time across multiple cities.Integrated real-time traffic analysis data leading to improvement in route accuracy and time saving",
     image: "/images/projects/2.png",
     tag: ["All", "Algorithms"],
     gitUrl: "https://github.com/gowdavidwan2003/Efficient-Vehicle-Routing",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "PaaS Product for NGO",
-    description: "Project 3 description",
+    description: "Built a full-stack Next.js PaaS for NGOs to find investors using semantic search.Integrated a SaaS tool with OpenAI API and Python-PPTX to create dynamic pitch presentations.Added a dashboard to track activities and connect NGOs with investors",
     image: "/images/projects/3.png",
     tag: ["All", "ML"],
     gitUrl: "https://github.com/Parth-G27/Tortoise",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Assistive Device for Blind using VLM",
-    description: "Project 4 description",
+    description: "An interdisciplinary project where we developed a project of assistive device for blind to navigate. Utilized Moondream 2.0 VLM for non mobile prototype and used BLIP model for mobile prototye which included connecting the webcam to raspberry pi and aiding blind in navigating",
     image: "/images/projects/4.png",
     tag: ["All", "ML"],
     gitUrl: "https://github.com/adxthyx/Frontend",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Regional Language Character Recognition",
-    description: "Project 4 description",
+    description: "Developed a hybrid model of ResNet 50 and VGGNet 16 to accurately recognize handwritten characters of regional languages. Developed a interative webapp where children can learn writing the language and take some small challenges",
     image: "/images/projects/5.png",
     tag: ["All", "ML"],
     gitUrl: "https://github.com/adxthyx/Frontend",
@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "Attendance Tracker/Face Recognition",
-    description: "Project 5 description",
+    description: "Programmed a face recognition model using VGGFace DL model and then utilized HaarCascade to recognize multiple faces in a single picture and combined it to accurately keep track of attendance of students attending in class",
     image: "/images/projects/6.png",
     tag: ["All", "Web","ML"],
     gitUrl: "https://github.com/adxthyx/Attendance--Face_Recognition",
@@ -62,7 +62,7 @@ const projectsData = [
   {
     id: 7,
     title: "Minimalistic Protal for RIT student with integrated Chatbot",
-    description: "Authentication and CRUD operations",
+    description: "Developed a Minimalist student portal for RIT students with integrated Chatbot.The portal utilizes data extraction using BeautifulSoup and auto logins using Selenium.The chatbot is connected to Database and can be used to get relevant information about grades,attendance,events and timetables",
     image: "/images/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/adxthyx/CHAT_MSRIT",
@@ -71,7 +71,7 @@ const projectsData = [
   {
     id: 8,
     title: "PPT Generator",
-    description: "Project 4 description",
+    description: "Created a project of automatic PPT generation which takes user input like Topic,No of slides and additional content and generate a PPT using Python-PPTX and Open AI API",
     image: "/images/projects/8.png",
     tag: ["All", "ML"],
     gitUrl: "https://github.com/adxthyx/PPT_Generator",
@@ -81,7 +81,7 @@ const projectsData = [
   {
     id: 9,
     title: "Emergency Fire Protocol",
-    description: "Project 4 description",
+    description: "Created a webapp for systamatic protocol to follow in fire hazard situation in urban areas,Used YOLO v5 and MoonDream 2.0 to accurately recognize fire and then used ",
     image: "/images/projects/9.png",
     tag: ["All", "ML"],
     gitUrl: "https://github.com/adxthyx/Emergency_Fire_Protocol",

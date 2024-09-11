@@ -38,7 +38,7 @@ const projectsData = [
     description: "Finetuned a VLM model named MoonDream and BLIP and utilized this model to a mobile architecture incluing webam,earphone to assist blind in realtime ",
     image: "/images/projects/4.png",
     tag: ["All", "ML"],
-    gitUrl: "https://github.com/adxthyx/Frontend",
+    gitUrl: "https://github.com/gowdavidwan2003/Blind-Assist-AI-Mayhem",
     previewUrl: "https://drive.google.com/file/d/1aiipy1nlBRCUTv2ltG9uRYtgdqylTlJU/view",
   },
   {

@@ -68,6 +68,7 @@ const projectsData = [
     gitUrl: "https://github.com/adxthyx/CHAT_MSRIT",
     previewUrl: ["/images/projects/7.png"],
   },
+  
   {
     id: 8,
     title: "PPT Generator",
